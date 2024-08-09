@@ -1,0 +1,33 @@
+/* src/components/ContactCard.css */
+
+.contact-card {
+    background-color: #34495e;
+    border: 1px solid #2c3e50;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px; /* Ensure cards do not exceed this width */
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    word-wrap: break-word; /* Handle long words/links */
+  }
+  
+  .contact-card h2 {
+    margin-bottom: 12px;
+    color: #ecf0f1;
+  }
+  
+  .contact-card p {
+    margin: 8px 0;
+    color: #bdc3c7;
+  }
+  
+  .contact-card a {
+    color: #1abc9c;
+    text-decoration: none;
+  }
+  
+  .contact-card a:hover {
+    text-decoration: underline;
+  }
+  

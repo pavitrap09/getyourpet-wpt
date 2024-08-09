@@ -1,0 +1,74 @@
+/* Advertise.css */
+
+.advertise-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.advertise-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.advertise-container p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.advertise-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.advertise-image:hover {
+  transform: scale(1.05);
+}
+
+.contact-details {
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.contact-details h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-details p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.contact-details p:hover {
+  color: #000;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,28 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling if needed */
+  overflow-y: auto; /* Ensure vertical scrolling is enabled */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1; /* Ensure the main content can expand and allow scrolling */
+  overflow-y: auto;
+}
+
+.sell-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Ensure this container can scroll if needed */
+}

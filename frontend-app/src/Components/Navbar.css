@@ -1,0 +1,121 @@
+/* Navbar.css */
+
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Navbar Left Section */
+.navbar-left .navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navbar Center Section */
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  margin: 0 0.5rem;
+}
+
+/* Sell Button Special Style */
+.sell-button a {
+  background-color: #28a745;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.sell-button a:hover {
+  background-color: #218838;
+}
+
+/* Logout Button Styles */
+.logout-button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.logout-button:hover {
+  background-color: #555;
+}
+
+/* Navbar Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-search {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 0.5rem;
+}
+
+.search-button:hover {
+  background-color: #218838;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  
+  .navbar-menu {
+    flex-direction: column;
+  }
+  
+  .navbar-item {
+    margin: 0.5rem 0;
+  }
+  
+  .navbar-search {
+    margin-top: 0.5rem;
+  }
+}

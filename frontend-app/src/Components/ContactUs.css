@@ -1,0 +1,13 @@
+/* src/components/ContactUs.css */
+
+.contact-us {
+    display: flex;
+    justify-content: center; /* Center cards horizontally */
+    align-items: center; /* Center cards vertically */
+    flex-wrap: wrap; /* Wrap cards to the next line if needed */
+    padding: 20px;
+    max-width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in total width */
+    
+  }
+  

@@ -1,0 +1,1 @@
+mongodb+srv://CDAC:cdac@123@cluster0.eq0qeuy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0np
